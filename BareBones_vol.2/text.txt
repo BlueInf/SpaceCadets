@@ -1,0 +1,26 @@
+//Sample program that multiplies two numbers
+clear X;
+incr X; //First number
+incr X;
+incr X;
+incr X;
+X=X+10;
+clear Y;
+incr Y; //Second number
+incr Y;
+incr Y;
+incr Y;
+clear Z; //Product of the two numbers
+while X not 0 do;
+   clear W;
+   while Y not 0 do;
+      incr Z;
+      incr W;
+      decr Y;
+   end;
+   while W not 0 do;
+      incr Y;
+      decr W;
+   end;
+   decr X;
+end;
