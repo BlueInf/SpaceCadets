@@ -63,7 +63,15 @@ public class Server extends Thread {
     }
 
     static synchronized void remove(Socket s) {
-        clientList.remove(s);
+
+        for(int i=0;i < clientList.size(); i++){
+
+            if(clientList.get(i).getSocket()==s){
+
+                clientList.remove(i);
+
+            }
+        }
     }
 
     public static void main(String[] args) throws IOException {

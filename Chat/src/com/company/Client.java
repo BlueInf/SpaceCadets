@@ -15,8 +15,8 @@ public class Client {
     private static Socket s = null;
     private static DataInputStream din;
     private static DataOutputStream dout;
-    private static PrintWriter pp;
-    private static BufferedReader br;
+    private static int uniqueID;
+
 
 
     public Client() {
@@ -103,9 +103,10 @@ class Output extends Thread{
             String  msg="";
 
             while (true) {
+
                 msg=din.readUTF();
-                String arr[]=msg.split(":");
                 System.out.println(msg);
+
             }
         }catch(Exception e){
             System.out.println("-*-*-*-You decide to leave-*-*-*-");

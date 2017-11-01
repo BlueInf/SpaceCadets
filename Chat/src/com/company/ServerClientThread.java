@@ -9,8 +9,6 @@ public class ServerClientThread extends Thread {
 
     private Socket socketClient = null;
     private boolean isThreadOn = true;
-    private BufferedReader in;
-    private PrintWriter out;
     private String name = "";
     private Thread t;
 
