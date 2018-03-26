@@ -1,12 +1,12 @@
 # SpaceCadets
 ### Space Cadets: Weekly Java challenges for the first semester of University of Southampton
 
-BareBones Language Interpreter
+[01. BareBones Language Interpreter](https://github.com/BlueInf/SpaceCadets/tree/master/BareBones_vol.2)
 
-Challenge 1 - Web Scraper Application
+[02. Challenge 1 - Web Scraper Application](https://github.com/BlueInf/SpaceCadets/tree/master/Challenge%201)
 
-Chat - Multiclient Chat Room using multithreading to handle many clients
+[03. Chat - Multiclient Chat Room using multithreading to handle many clients](https://github.com/BlueInf/SpaceCadets/tree/master/Chat)
 
-Circle Detection - Circle Detection Application 
+[04. Circle Detection - Circle Detection Application] (https://github.com/BlueInf/SpaceCadets/tree/master/Circle%20Detection)
 
-Spirograph
+[05. Spirograph] (https://github.com/BlueInf/SpaceCadets/tree/master/Spirograph)
