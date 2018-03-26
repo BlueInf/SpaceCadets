@@ -1,0 +1,5 @@
+# Spirograph Challenge
+
+Your challenge is to write an Applet or JApplet or AWT application or Swing application or JavaFX application that draws a simple hypercycloid.
+In this challenge I'd like you to focus on creating an Object Oriented solution. For example, you might create a separate class that represents a hypocycloid, which has instance variables for (among other things) the radius of the circles. Your class should provide a sensible constructor so that a hypocycloid of a particular shape can be easily created. The class should provide a paint() method so that it can be easily drawn by the applet's paint() method.
+You should think about convenient ways that the object can be used: what things are properies of the shape itself, and what depend on each occurrence of the drawing. For example, should location, size, color, r, R and O be parameters to the constructor or the paint method? Note that the equation above is a generalised version that will draw a number of similar kinds of curve: to get a hypocycloid, r should be negative.
